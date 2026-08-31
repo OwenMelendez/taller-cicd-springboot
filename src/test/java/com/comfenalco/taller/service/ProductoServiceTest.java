@@ -16,7 +16,7 @@ class ProductoServiceTest {
     @Test
     void debeCalcularPrecioConDescuento() {
         double resultado = productoService.aplicarDescuento(100.0, 10);
-        assertEquals(91.0, resultado);
+        assertEquals(90.0, resultado);
     }
 
     @Test
