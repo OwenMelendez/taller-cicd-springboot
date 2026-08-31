@@ -18,7 +18,7 @@ class ProductoServiceTest {
         double resultado = productoService.aplicarDescuento(100.0, 10);
         assertEquals(90.0, resultado);
     }
-
+    //prueba de Git Branch endpoint
     @Test
     void debeLanzarExcepcionSiDescuentoEsInvalido() {
         assertThrows(IllegalArgumentException.class,
