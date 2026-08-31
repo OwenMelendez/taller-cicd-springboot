@@ -49,4 +49,5 @@ El workflow en `.github/workflows/ci.yml` se ejecuta en cada push y pull request
 3. Genera el reporte de cobertura con JaCoCo y lo publica como artefacto descargable de la ejecución.
 4. Verifica el manejo de una variable sensible vía GitHub Secrets.
 
+
 La rama `main` está protegida: los cambios solo se fusionan mediante Pull Request una vez el pipeline pasa en verde.
